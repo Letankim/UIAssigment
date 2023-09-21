@@ -136,7 +136,14 @@
         cursor: pointer;
     }
     /* banner */
-    .carousel-item.active img {
+    .carousel-inner {
+        
+    }
+    .carousel-item.active   {
+        width: 200%;
+        transform: translateX(-45%);
+    }
+    .banner .carousel.slide img{
         width: 100%;
         object-fit: cover;
         object-position: center center;
