@@ -31,6 +31,10 @@
         font-weight: bold;
         font-size: 6rem;
     }
+    /* view mini cart */
+    .view-cart-mini {
+        width: 300px;
+    }
 
     /* navbar */
     .navbar {
@@ -81,6 +85,7 @@
     }
 
     .box-message-free-ship {
+        text-align: center;
         padding: 5px 0px;
         font-size: 1.4rem;
         border-top: 1px solid #eee;
