@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --main-background-color: #263C97; 
+    --text-color-white: #fff;
+    --border-color-main: rgba(255, 255, 255, 0.1);
+    --color-hover-text: #fcbe00;
+    --border-default-button:#e5e5e5;
+    --border-button-active: #fcbe00;
+    --transition-text: all 0.3s linear;
+    /* width */
+    --width-mini-cart: 400px;
+    /* height */
+    --height-header: 198px;
+    --banner-height: calc(100vh - var(--height-header));
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
