@@ -145,8 +145,8 @@
     }
     .banner .carousel.slide img{
         width: 100%;
-        object-fit: cover;
-        object-position: center center;
+        /* object-fit: cover;
+        object-position: center center; */
     }
     /* product */
     .header-product {
