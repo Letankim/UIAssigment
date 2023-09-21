@@ -1,6 +1,9 @@
 @media (max-width: 768px) {
 
     /* header */
+    .hide-on-mobile {
+        display: none !important;
+    }
     :root {
         /* height */
         --height-header: 100%;
@@ -19,6 +22,19 @@
     .box-input-search {
         padding: 0;
     }
+    .nav-info-left {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .nav-info-left-list {
+        justify-content: space-between;
+    }
+    .nav-info-left-list-item:nth-child(odd)::before {
+        display: none;
+    }
+    .nav-info-right {
+        display: none;
+    }
 
     .search {
         display: flex;
@@ -27,6 +43,8 @@
     }
 
     .btn-menu-mobile {
+        display: flex;
+        align-items: center;
         color: #fff;
         font-weight: bold;
         font-size: 6rem;
@@ -116,6 +134,12 @@
         font-size: 3rem;
         color: #fff;
         cursor: pointer;
+    }
+    /* banner */
+    .carousel-item.active img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
     }
     /* product */
     .header-product {
